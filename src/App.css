@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e8e8e8;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sideBar {
+  width: 350px;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideBar h1 {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.sideBar h2 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-bottom: 4px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  font-size: 0.9rem;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+button {
+padding: 10px 16px;
+margin-top: 8px;
+margin-right: 6px;
+border: none;
+border-radius: 4px;
+background-color: #4a90e2;
+color: white;
+font-size: 0.9rem;
+cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+.display {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+}
+
+.cv-paper {
+  background-color: white;
+  width: 794px;
+  min-height: 1123px;;
+  padding: 40px 48px;
+  font-size: 0.875rem;
+  color: #111;
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 16px;
+} 
+
+.cv-header h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #111;
+  background: none;
+  padding: 0;
+  margin-bottom: 4px;
+}
+
+.cv-contact {
+  font-size: 0.8rem;
+  color: #444;
+  text-align: center;
+}
+
+.cv-section {
+  margin-top: 14px;
+}
+
+.cv-section h2 {
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #111;
+  border-bottom: 1.5px solid #222;
+  padding-bottom: 3px;
+  margin-bottom: 8px;
+  background: none;
+}
+
+.cv-entry {
+  margin-bottom: 10px;
+}
+
+.cv-entry-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cv-entry-name {
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.cv-entry-sub {
+  font-style: italic;
+  font-size: 0.82rem;
+  color: #444;
+}
+
+.cv-entry-date {
+  font-style: italic;
+  font-size: 0.82rem;
+  color: #444;
+  white-space: nowrap;
+}
+
+.cv-entry p {
+  font-size: 0.82rem;
+  color: #333;
+  margin-top: 2px;
+  text-align: left;
+}
+
+.cv-entry ul {
+  margin-left: 20px;
+  margin-top: 4px;
+  font-size: 0.82rem;
+  color: #222;
+}
+
+.cv-entry ul li {
+  margin-bottom: 3px;
+}
+
+.responsibility-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.responsibility-row input {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.add-btn {
+  background-color: #444;
+  color: #ccc;
+  border: 1px solid #666;
+  border-radius: 4px;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  margin-top: 2px;
+  margin-bottom: 12px;
+  width: 100%;
+} 
+
+.btn-add:hover {
+  background-color: #555;
+}
+
+.work-entry-block {
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.work-entry-block p {
+  font-weight: bold;
+  color: #ccc;
+  font-size: 0.85rem;
+}
+
+.editBtn {
+  top: 20px;
+  right: 20px;
+  padding: 10px 24px;
+}
