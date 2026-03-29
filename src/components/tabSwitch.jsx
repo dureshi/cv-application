@@ -66,6 +66,7 @@ export function EducationalExp({value, setValue}) {
     updated[eduIndex] = { ...updated[eduIndex],
       [field]: newValue
     };
+    
     setValue({ ...value, educations: updated});
   }
 
